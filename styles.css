@@ -1,5 +1,27 @@
 body{
-    background-color: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 8%);
-    font-family: "Epilogue", sans-serif;
+    font-family: "Epilogue", sans-serif;  
 }
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10rem;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.75rem;
+    color: hsl(0, 0%, 41%);
+}
+
