@@ -2,9 +2,11 @@ body{
     background: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 8%);
     font-family: "Epilogue", sans-serif;  
+    
 }
 
-.top{
+
+.header{
     display: flex;
     flex-direction: row;
     padding: 2rem;
@@ -13,12 +15,12 @@ body{
 
 button{
     background: hsl(0, 0%, 98%);
-    border: 1px solid hsl(0, 0%, 8%);
+    border: 2px solid hsl(0, 0%, 8%);
     border-radius: .75rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 
-.main-container{
+.container{
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10rem;
@@ -28,5 +30,28 @@ p{
     font-size: 18px;
     line-height: 1.75rem;
     color: hsl(0, 0%, 41%);
+    padding: 2rem 0;
+    
 }
 
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.container-left{
+    padding: 6rem;
+}
+
+.footer{
+    align-content: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 11rem;
+    
+}
+
+.container-right > img{
+   height: 50%; 
+}
