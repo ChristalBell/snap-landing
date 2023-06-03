@@ -5,13 +5,15 @@ body{
     
 }
 
-
 .header{
     display: flex;
     flex-direction: row;
     padding: 2rem;
 }
 
+.header-right > a{
+    text-decoration: none;
+}
 
 .dropbtn {
     background-color: hsl(0, 0%, 98%);
@@ -52,7 +54,7 @@ body{
 
 button{
     background: hsl(0, 0%, 98%);
-    border: 2px solid hsl(0, 0%, 8%);
+    border: 1.5px solid hsl(0, 0%, 8%);
     border-radius: .75rem;
     padding: .5rem;
 }
@@ -61,6 +63,10 @@ button{
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10rem;
+}
+
+h1{
+    font-size: 4.75rem;
 }
 
 p{  
@@ -74,6 +80,9 @@ p{
     padding: 6rem;
 }
 
+.learn-more{
+    font-weight: bold;
+}
 .footer{
     align-content: center; 
     display: flex;
